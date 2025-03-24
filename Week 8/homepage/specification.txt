@@ -1,0 +1,17 @@
+HTML Tags used:
+<meta> <link> <script> <nav> <div> <ul> <label> <span> <h1> <p> <input> <iframe> <ol> - 13 in total
+
+CSS properties used:
+.hero-section - Image Background
+.hero-text - Text above image
+.content - Black text
+data-themes - For light / dark mode toggle
+body - controls the colour of the oage
+.navbar related classes - controls the colour of the navbar
+.theme-switch - container to the slider
+.theme-switch input - invisible checkbox to get input
+.slider related - styles to make the darkmode slider (before/after is cliked)
+
+I used Javascript to listen for changes to the darkmode toggle, which then changes the css settings to make the page dark/light. It checks for saved user preferences and use that them automatically.
+I used bootstraps dymanic grid features to automatically adapt the page's scale to the screen it is rendered on using the meta tag. Also also used the navbar from the css class as well. 
+

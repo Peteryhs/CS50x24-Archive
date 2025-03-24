@@ -1,0 +1,5 @@
+I could characterize their musical aura by taking the average of all of the different characteristics of the music, such as the energy and the danceability as we discussed before. I could tag each of these to a certain mood, then I can use these averages to find out the mood.
+
+However, this may not fully represent the listener since they are only based off few characteristics and few sample sizes and wouldn't really reflect how they think and their "music mood".
+
+Some better ways include getting a larger sample size and better categorization of the music's characteristics for a more nuanced analysis.

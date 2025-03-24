@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <h1>Register</h1>
+    <form action = "/register" method = "POST">
+        <input placeholder = "Name" type = "text" name = "Name">
+
+
+            {% for sport in sports %}
+                <input name = "sport" type="checkbox" value = "{{ sport }}" required> {{ sport}}
+            {% endfor %}
+
+        <button type = "submit">Register</button>
+    </form>
+
+{% endblock %}
