@@ -1,0 +1,11 @@
+sort1 uses:Bubble sort
+
+How do you know?:From the demo in the lecture, we found that bubble sort is the slowest since it has to go through a lot of values just to sort one element (until towards the end),and could make the order even worse sometimes, which means it would struggle with large amounts of data. This is exactly what we see here, as it is seconds behind all other sorting methods.
+
+sort2 uses: Merge sort
+
+How do you know?: It is able to solve the random50000.txt file way quicker (1.0 vs. 0.1 seconds compared to the other two), which means that it likely operates on a log n basis. Since merge sort is n * log n, I believe that's the best possible. It is also faster in the reversed version, which proves that its need is universal.
+
+sort3 uses: Selection sort
+
+How do you know?: From the video demo that we saw in the lecture, Bubble sort is significantly slower than Selection sort, which is what we see here (Sort3 is faster than Sort1 but much slower than Sort2)
